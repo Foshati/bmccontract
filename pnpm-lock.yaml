@@ -1058,8 +1058,8 @@ packages:
     resolution: {integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==}
     engines: {node: '>=10'}
 
-  tar-fs@1.16.4:
-    resolution: {integrity: sha512-u3XczWoYAIVXe5GOKK6+VeWaHjtc47W7hyuTo3+4cNakcCcuDmlkYiiHEsECwTkcI3h1VUgtwBQ54+RvY6cM4w==}
+  tar-fs@1.16.5:
+    resolution: {integrity: sha512-1ergVCCysmwHQNrOS+Pjm4DQ4nrGp43+Xnu4MRGjCnQu/m3hEgLNS78d5z+B8OJ1hN5EejJdCSFZE1oM6AQXAQ==}
 
   tar-fs@2.0.1:
     resolution: {integrity: sha512-6tzWDMeroL87uF/+lin46k+Q+46rAJ0SyPGz7OW7wTgblI273hsBqk2C1j0/xNadNLKDTUL9BukSjB7cwgmlPA==}
@@ -1957,7 +1957,7 @@ snapshots:
     dependencies:
       concat-stream: 1.6.2
       docker-modem: 1.0.9
-      tar-fs: 1.16.4
+      tar-fs: 1.16.5
     transitivePeerDependencies:
       - supports-color
 
@@ -2587,7 +2587,7 @@ snapshots:
     dependencies:
       has-flag: 4.0.0
 
-  tar-fs@1.16.4:
+  tar-fs@1.16.5:
     dependencies:
       chownr: 1.1.4
       mkdirp: 0.5.6
